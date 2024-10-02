@@ -1,0 +1,88 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />           
+    <link href="~/webregister/css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="~/webregister/css/font-awesome.css"> 
+</head>
+<body>
+    <section class="register">
+        <div class="register-full">
+            <div class="register-left">
+                <div class="register">
+                    <div class="logo">
+                        <a href="#"><span class="fa fa-graduation-cap" aria-hidden="true"></span></a>
+                    </div>
+                    <h1>Kütüphane Yönetim Sistemi</h1>
+                    <p>
+                        Kayıt olmak için yandaki bilgileri eksiksiz bir biçimde doldurunuz.
+                    </p>
+                    <div class="content3">
+                        <ul>
+                            <li><a class="" href="/Login/GirisYap/"> Giriş Yap</a></li>
+                            <li><a class="read" href="/Vitrin/Index/"> Siteye Dön</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="register-right">
+                <div class="register-in">
+                    <h2><span class="fa fa-pencil"></span>kayıt Paneli</h2>
+                    <div class="register-form">
+                        <form action="#" method="post">
+                            <div class="fields-grid">
+                                <div class="styled-input agile-styled-input-top">
+                                    <input type="text" name="AD" required="">
+                                    <label>Adınız</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input agile-styled-input-top">
+                                    <input type="text" name="SOYAD" required="">
+                                    <label>Soyadınız</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="text" name="MAIL" required="">
+                                    <label>Email</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="text" name="KULLNICIADI" required="">
+                                    <label>Kullanıcı Adınız</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="password" name="SIFRE" required="">
+                                    <label>Şifre</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="password" name="TELEFON" required="">
+                                    <label>Telefon</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="text" name="OKUL" required="">
+                                    <label>OKUL</label>
+                                    <span></span>
+                                </div>
+                                <div class="clear"> </div>
+                                <label class="checkbox"><input type="checkbox" name="checkbox" checked><i></i>Şartları Okudum <a href="#">Kabul Ediyorum</a></label>
+                            </div>
+                            <input type="submit" value="Kayıt Ol">
+                        </form>
+                    </div>
+                </div>
+                <div class="clear"> </div>
+            </div>
+            <div class="clear"> </div>
+        </div>
+    </section>
+</body>
+</html>
